@@ -30,4 +30,16 @@ input: Token = Token {
 
 [transfer_public_to_private]
 amount: u64 = 50u64;
-receiver: address = aleo1q78yqsx0jwv3z7y9v48mcx9ecl7ksyakdlujkky2xr8qldedwsxquvvtvx;git
+receiver: address = aleo1q78yqsx0jwv3z7y9v48mcx9ecl7ksyakdlujkky2xr8qldedwsxquvvtvx
+
+[join]
+input: Token = Token {
+  owner: aleo1q78yqsx0jwv3z7y9v48mcx9ecl7ksyakdlujkky2xr8qldedwsxquvvtvx,
+  amount: 100u64,
+  _nonce: 6559880022620921729245384365690863802894244778848605344679292594213974853999group
+};
+input2: Token = Token {
+  owner: aleo1q78yqsx0jwv3z7y9v48mcx9ecl7ksyakdlujkky2xr8qldedwsxquvvtvx,
+  amount: 100u64,
+  _nonce: 6559880022620921729245384365690863802894244778848605344679292594213974853999group
+};
